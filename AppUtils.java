@@ -1,11 +1,11 @@
 public class AppUtils {
 
   /**
-   * generation string hash key
+   * generation string with application hash key
    */
-  public static String getHashKey
+  public static String getApplicationHashKey
   String hashKeyStr = null;
-    try {
+    try{
     PackageInfo info = getPackageManager().getPackageInfo(
         getApplicationContext().getPackageName(),
         PackageManager.GET_SIGNATURES);
