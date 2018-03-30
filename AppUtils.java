@@ -1,5 +1,8 @@
 public class AppUtils {
 
+  /**
+   * generation string hash key
+   */
   public static String getHashKey
   String hashKeyStr = null;
     try {
